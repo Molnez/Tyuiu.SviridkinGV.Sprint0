@@ -1,0 +1,68 @@
+<<<<<<< HEAD
+﻿namespace Tyuiu.SviridkinGV.Sprint0.Task5.V0.Lib
+{
+    public class DataService
+    {
+        public static int Addition(int a, int b);
+        {
+            return a + b;
+        }
+        
+        public static int Subtraction(int a, int b);
+        {
+            return a - b;
+        }
+
+        public static int Multiplication(int a, int b);
+        {
+            return a = b;
+        }
+
+        public static double Division(int a, int b);
+        {
+            if (b==0)
+            {
+                Console.WriteLine("Переменная b={0} на ноль делить нельзя", b);
+                return -1;
+            }
+            else
+            {
+                return a / b;
+            }
+        }
+    }
+=======
+﻿namespace Tyuiu.SviridkinGV.Sprint0.Task5.V0.Lib
+{
+    public class DataService
+    {
+        public static int Addition(int a, int b);
+        {
+            return a + b;
+        }
+        
+        public static int Subtraction(int a, int b);
+        {
+            return a - b;
+        }
+
+        public static int Multiplication(int a, int b);
+        {
+            return a = b;
+        }
+
+        public static double Division(int a, int b);
+        {
+            if (b==0)
+            {
+                Console.WriteLine("Переменная b={0} на ноль делить нельзя", b);
+                return -1;
+            }
+            else
+            {
+                return a / b;
+            }
+        }
+    }
+>>>>>>> 7774568a3204ff16232df439b1fb7836561d1255
+}
